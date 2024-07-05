@@ -1,0 +1,36 @@
+.add-book-form {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.add-book-form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.add-book-form button {
+  padding: 10px 20px;
+  background-color: rgb(249, 129, 9);
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+.c1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  background: linear-gradient(
+    to right,
+    #b721ff,
+    #2af598,
+    #fec051,
+    #fee140,
+    #fa709a
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

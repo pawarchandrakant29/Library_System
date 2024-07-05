@@ -1,0 +1,32 @@
+{
+  "books": [
+    {
+      "id": "36f8",
+      "title": "Murder!",
+      "author": "Arnold Bennett",
+      "genre": "Crime",
+      "year": "1979"
+    },
+    {
+      "id": "f3ad",
+      "title": "A Boy at Seven",
+      "author": "John Bidwell",
+      "genre": "First Edition",
+      "year": "1960"
+    },
+    {
+      "id": "944b",
+      "title": "The Signalman",
+      "author": "Charles Dickens",
+      "genre": "Suspense",
+      "year": "1865"
+    },
+    {
+      "id": "5548",
+      "title": "From a View to a Kill",
+      "author": "Ian Fleming",
+      "genre": "Adventure",
+      "year": "1995"
+    }
+  ]
+}

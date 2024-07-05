@@ -1,0 +1,48 @@
+.book-list {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 800px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 5px;
+}
+
+th {
+  background-color: #000;
+}
+
+tr:nth-child(even) {
+  background-color: #5c5c5c;
+}
+
+button {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.c1{
+  margin-bottom: 20px !important;
+}
+.btn1{
+  background-color: rgb(5, 126, 130);
+  color: #000;
+}
+.btn2{
+  margin-left: 5px ;
+  background-color: red;
+  color: #000;
+}
+.btn3{
+  background-color: rgb(25, 0, 255);
+  color: #ffffff;
+  margin-top: 10px;
+}
