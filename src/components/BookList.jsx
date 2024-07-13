@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { getBooks, deleteBook } from "../redux/booksSlice";
+import { getBooksAsync, deleteBook } from "../redux/booksAction";
 import { useNavigate } from "react-router-dom";
 import "./BookList.css";
 
@@ -10,7 +10,7 @@ const BookList = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    dispatch(getBooks());
+    dispatch(getBooksAsync());
   }, [dispatch]);
 
   const handleDelete = (id) => {

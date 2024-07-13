@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { updateBook } from "../redux/booksSlice";
+import { useDispatch } from "react-redux";
+import { updateBook } from "../redux/booksAction";
 import { useParams, useNavigate, useLocation } from "react-router-dom";
 import "./UpdateBook.css";
 
